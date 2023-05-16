@@ -24,3 +24,6 @@
 
 ## TricksWithCyclicMethods
 [Работа с циклами](https://github.com/lukviktor/helpfulMethods/blob/main/src/main/java/methods/TricksWithCyclicMethods.java)
+
+## ListOfVariableNamesInFormatValue_performance
+[Список имен переменных в формате значение_переменной](https://github.com/lukviktor/helpfulMethods/blob/main/src/main/java/methods/ListOfVariableNamesInFormatValue_performance.java)
