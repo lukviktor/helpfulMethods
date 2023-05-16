@@ -22,6 +22,17 @@ public class RandomStringTest {
         5. Пример генерации имейла
          */
     @Test
+    public void forDiplom_2(){
+        String email = RandomStringUtils.randomAlphabetic(8) + "@mail.ru";
+        String password = RandomStringUtils.randomAlphabetic(10);
+        String name = RandomStringUtils.randomAlphabetic(8);
+        //User user = new User(email, password, name);
+        System.out.println(email);
+        System.out.println(password);
+        System.out.println(name);
+        //System.out.println(user);
+    }
+    @Test
     public void testRandomString() {
         System.out.println(RandomStringUtils.random(3));
         System.out.println(RandomStringUtils.randomNumeric(5));
@@ -93,4 +104,5 @@ public class RandomStringTest {
     public void testEnvDev() {
         System.out.println(Environment.TEST_PARAM);
     }
+
 }

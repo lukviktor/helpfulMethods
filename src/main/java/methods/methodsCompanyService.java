@@ -1,9 +1,12 @@
 package methods;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Random;
 
 public class methodsCompanyService {
-    public static void main(String[] args) {
+    @Test
+    public void companyService() {
 
 
         String[] companies = new String[]{"Яндекс", "Google"}; // массив компаний
@@ -14,7 +17,7 @@ public class methodsCompanyService {
 
 // можно создать случайную комбинацию Компания.Сервис:
 
-        System.out.format("%s.%s", companies[randomCompany], services[randomService]);
+        System.out.format("%s@.%s", companies[randomCompany], services[randomService]);
 // строки отформатированы, чтобы название компании и сервиса выводились через точку
     }
 }
