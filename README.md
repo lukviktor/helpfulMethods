@@ -30,3 +30,5 @@
 
 ## package listofvariablenames;
 [Реализация добавления в ArrayList через цикл, где переменная имеет единообразное название, а значение получаем с помощью рефлексии](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/listofvariablenames)
+
+### Test
