@@ -1,6 +1,14 @@
 # Методы, которые помогают жить.
-## likeTheFirstPhoto
 
+## Описание
+    Java 11
+    maven
+    Selenium
+    JUnit 5
+    RestAssured 5
+    Allure
+    gson
+## likeTheFirstPhoto
 [Лайк первой фото из списка](https://github.com/lukviktor/helpfulMethods/blob/main/src/main/java/methods/likePhotoTest.java).
 
 ## methodIdentifier
@@ -33,4 +41,7 @@
 
 ## string_collection;
 [String collection](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/string_collection)
+
+## parameterized_junit5;
+[Добавил Параметризация junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/parameterized_junit5)
 
