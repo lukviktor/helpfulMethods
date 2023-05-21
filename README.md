@@ -50,6 +50,7 @@ String
 ```
 [String collection](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/string_collection)
 
-## parameterized_junit5;
-[Добавил Параметризация junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/parameterized_junit5)
+## JUnit
+    parameterized_junit5;
+[junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/junit)
 
