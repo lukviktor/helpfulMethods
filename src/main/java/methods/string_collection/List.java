@@ -3,9 +3,8 @@ package methods.string_collection;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import java.util.List;
 
-public class ListTest {
+public class List {
     /**
      * Как создать список (ArrayList) из массива
      * <p>
@@ -18,11 +17,11 @@ public class ListTest {
      * Если создать список через List.of() или Arrays.asList(), в них уже нельзя добавить или удалить элемент.
      * Эти методы подойдут, если тебе не нужно менять список.
      */
-    List<String> cities = Arrays.asList("Воронеж", "Южно-Сахалинск", "Иркутск"); // создали и заполнили список
+    java.util.List<String> cities = Arrays.asList("Воронеж", "Южно-Сахалинск", "Иркутск"); // создали и заполнили список
     //Обрати внимание: такой список создают через интерфейс List, а не класс ArrayList.
     // Если создать через ArrayList, будет ошибка компиляции.
     String[] citiesArray = cities.toArray(new String[]{}); // превратили список в массив
-    List<String> sea = List.of("Черное", "Красное", "Мертвое");
+    java.util.List<String> sea = java.util.List.of("Черное", "Красное", "Мертвое");
     public void list(){
         System.out.println("1: " + cities);
         System.out.println("2: " + citiesArray);

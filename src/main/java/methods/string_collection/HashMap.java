@@ -2,9 +2,7 @@ package methods.string_collection;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-
-public class HashMapTest {
+public class HashMap {
     /**
      * хеш-таблица
      * В хеш-таблице (англ. hash map) кроме значений хранятся их ключи — уникальные идентификаторы.
@@ -31,7 +29,7 @@ public class HashMapTest {
      * containsKey(Object key) (англ. «содержит ключ») ищет в таблице ключ, вернёт true, если нет — false
      * containsValue(Object value) (англ. «содержит значение») — ищет в таблице значение, вернёт true, если нет — false
      */
-    HashMap<String, Double> planetsWeight;
+    java.util.HashMap<String, Double> planetsWeight;
 
 
 public void officeTool(){
@@ -40,7 +38,7 @@ public void officeTool(){
     officeTool = new HashMap<String, String>(); // создали объект
     officeTool = new HashMap<>(); // так тоже можно
     */
-    HashMap<String, String> officeTool = new HashMap<>();
+    java.util.HashMap<String, String> officeTool = new java.util.HashMap<>();
     officeTool.put("S234", "Большой степлер"); // добавить элементы
     officeTool.put("P342", "Чёрно-белый принтер из коридора");
     officeTool.put("N845", "Острые ножницы");
@@ -60,7 +58,7 @@ public void officeTool(){
          * Обычно элементы хеш-таблицы ищут по ключу.
          * Если он неизвестен, поможет цикл for each и метод values(): он выводит все значения из таблицы.
          */
-        HashMap<String, String> officeTool = new HashMap<>();
+        java.util.HashMap<String, String> officeTool = new java.util.HashMap<>();
         officeTool.put("S234", "Большой степлер");
         officeTool.put("P342", "Чёрно-белый принтер");
         officeTool.put("N845", "Острые ножницы");
@@ -71,7 +69,7 @@ public void officeTool(){
             }
         }
 
-        HashMap<String, Double> kittenWeights = new HashMap<>();
+        java.util.HashMap<String, Double> kittenWeights = new java.util.HashMap<>();
 
         kittenWeights.put("Пушок", 1.62);
         kittenWeights.put("Снежок", 1.91);
@@ -94,7 +92,7 @@ public void officeTool(){
         /**
          * Если нужно получить все ключи хеш-таблицы, понадобится метод keySet() (англ. «набор ключей») и цикл for each.
          */
-        HashMap<String, String> officeTool = new HashMap<>();
+        java.util.HashMap<String, String> officeTool = new java.util.HashMap<>();
         officeTool.put("S234", "Большой степлер");
         officeTool.put("P342", "Чёрно-белый принтер");
         officeTool.put("N845", "Острые ножницы");
@@ -105,7 +103,7 @@ public void officeTool(){
         }
     }
     public void officeToolRemoveClear(){
-        HashMap<String, String> officeTool = new HashMap<>();
+        java.util.HashMap<String, String> officeTool = new java.util.HashMap<>();
         officeTool.put("S234", "Большой степлер");
         officeTool.put("P342", "Чёрно-белый принтер");
         officeTool.put("N845", "Острые ножницы");

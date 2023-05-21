@@ -3,10 +3,9 @@ package methods.string_collection;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedListTest {
+public class LinkedList {
     /**
      * В LinkedList элементы фактически представляют собой звенья одной цепи.
      * У каждого элемента помимо тех данных, которые он хранит, имеется ссылка на предыдущий и следующий элемент.
@@ -56,7 +55,7 @@ public class LinkedListTest {
         String str2 = "My name is Earl";
         String str3 = "I love Java";
         String str4 = "I live in Moscow";
-        LinkedList<String> earlBio = new LinkedList<>();
+        java.util.LinkedList<String> earlBio = new java.util.LinkedList<>();
         earlBio.add(str1);
         earlBio.add(str2);
         earlBio.add(str3);
@@ -66,7 +65,7 @@ public class LinkedListTest {
 
     @Test
     public void timeLinkedList(){
-        List<Integer> list = new LinkedList<>();
+        List<Integer> list = new java.util.LinkedList<>();
 
         for (int i = 0; i < 5_000_000; i++) {
             list.add(new Integer(i));

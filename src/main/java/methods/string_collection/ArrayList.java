@@ -2,21 +2,19 @@ package methods.string_collection;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-
 /**
  * Список на основе массива
  */
-public class ArrayListTest {
+public class ArrayList {
     /** Пустой конструктор с начальной емкостью внутреннего массива = 10 */
-    ArrayList<String> list = new ArrayList<>();
+    java.util.ArrayList<String> list = new java.util.ArrayList<>();
 
     /** Конструктор принимает другую коллекцию, создавая новый массив с элементами переданной коллекции: */
-    ArrayList<String> list2 = new ArrayList<>(list);
+    java.util.ArrayList<String> list2 = new java.util.ArrayList<>(list);
 
     /** В качестве параметра конструктора выступает значения начального размера внутреннего массива */
-    ArrayList<String> list3 = new ArrayList<>(10000);
-    ArrayList<ArrayList<Double>> matrix = new ArrayList<>(); //В списке можно хранить даже другие списки:
+    java.util.ArrayList<String> list3 = new java.util.ArrayList<>(10000);
+    java.util.ArrayList<java.util.ArrayList<Double>> matrix = new java.util.ArrayList<>(); //В списке можно хранить даже другие списки:
     /**
      * Методы ArrayList:
 
@@ -87,7 +85,7 @@ public class ArrayListTest {
      */
     @Test
     public void forTest(){
-        ArrayList<String> secondList = new ArrayList<>();
+        java.util.ArrayList<String> secondList = new java.util.ArrayList<>();
         secondList.add("раз");
         secondList.add("два");
         secondList.add("три");
@@ -100,7 +98,7 @@ public class ArrayListTest {
 
     @Test
     public void forEachTest(){
-        ArrayList<String> secondList = new ArrayList<>();
+        java.util.ArrayList<String> secondList = new java.util.ArrayList<>();
         secondList.add("раз");
         secondList.add("два");
         secondList.add("три");
@@ -110,7 +108,7 @@ public class ArrayListTest {
         }
     }
     @Test
-    public void setList(ArrayList<String> list) {
+    public void setList(java.util.ArrayList<String> list) {
         System.out.println(list);
         System.out.println(list2);
 

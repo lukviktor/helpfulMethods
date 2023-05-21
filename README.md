@@ -40,10 +40,16 @@
 [Реализация добавления в ArrayList через цикл, где переменная имеет единообразное название, а значение получаем с помощью рефлексии](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/listofvariablenames)
 
 ## string_collection;
+```
+Array
+ArrayList
+HashMap
+LinkedList
+List
+String
+```
 [String collection](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/string_collection)
 
 ## parameterized_junit5;
 [Добавил Параметризация junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/parameterized_junit5)
 
-## StringPro
-[Методы класса String](https://github.com/lukviktor/helpfulMethods/blob/main/src/main/java/methods/string_collection/StringPro.java)

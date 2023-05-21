@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-public class ArrayTest {
+public class Array {
     boolean[] digitsBoolean = new boolean[3];
 
     public int[] digitsInt = {0, 3, 7, 9};
