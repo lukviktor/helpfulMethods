@@ -45,3 +45,5 @@
 ## parameterized_junit5;
 [Добавил Параметризация junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/parameterized_junit5)
 
+## StringPro
+[Методы класса String](https://github.com/lukviktor/helpfulMethods/blob/main/src/main/java/methods/string_collection/StringPro.java)
