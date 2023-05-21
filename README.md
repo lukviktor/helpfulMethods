@@ -51,6 +51,9 @@ String
 [String collection](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/methods/string_collection)
 
 ## JUnit
-    parameterized_junit5;
+```
+parameterized_junit5;
+AssertMatchers
+```
 [junit5](https://github.com/lukviktor/helpfulMethods/tree/main/src/main/java/junit)
 
