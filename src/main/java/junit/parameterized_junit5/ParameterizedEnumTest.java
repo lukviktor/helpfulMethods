@@ -1,4 +1,4 @@
-package methods.parameterized_junit5;
+package junit.parameterized_junit5;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
