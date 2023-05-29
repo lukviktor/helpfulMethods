@@ -103,4 +103,16 @@ public class RandomStringTest {
         System.out.println(Environment.TEST_PARAM);
     }
 
+    @Test
+    public void testRandomChar() {
+        Random r = new Random();
+        String rus = "абвгдеёжзийклмнопрстуфхцчъыьэюя";
+        String eng = "abcdefghijklmnopqrstuvwxyz";
+        String dig = "0123456789";
+        String sum = rus + rus.toUpperCase() +
+                eng + eng.toUpperCase() +
+                dig;
+        char c = sum.charAt(r.nextInt(sum.length()) );
+        System.out.println(c);
+    }
 }
