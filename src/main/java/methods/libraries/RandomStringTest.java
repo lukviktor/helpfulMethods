@@ -26,11 +26,9 @@ public class RandomStringTest {
         String email = RandomStringUtils.randomAlphabetic(8) + "@mail.ru";
         String password = RandomStringUtils.randomAlphabetic(10);
         String name = RandomStringUtils.randomAlphabetic(8);
-        //User user = new User(email, password, name);
         System.out.println(email);
         System.out.println(password);
         System.out.println(name);
-        //System.out.println(user);
     }
     @Test
     public void testRandomString() {
